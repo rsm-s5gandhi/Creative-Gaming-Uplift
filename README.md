@@ -1,14 +1,14 @@
-# 📊 Customer Analytics – Uplift Modeling for Targeted Marketing Campaigns
+# 🎮 Creative Gaming Uplift Modeling
 
-This project explores the application of uplift modeling and predictive analytics to customer datasets, with the goal of optimizing marketing campaign targeting and maximizing return on investment (ROI). By leveraging transactional and behavioral customer data, the analysis demonstrates how data-driven strategies can enhance engagement, conversion rates, and campaign profitability in a competitive business environment.
+This project applies uplift modeling and predictive analytics to gaming datasets, with the objective of optimizing targeted interventions—such as new features, rewards, or promotions—and maximizing player engagement and retention. By leveraging in-game behavioral data and player transaction logs, the analysis demonstrates how data-driven strategies can enhance user experience, increase incremental revenue, and support smarter decision-making in the competitive gaming industry.
 
 ---
 
 ## 📌 Project Overview
 
-Modern marketing relies heavily on data to drive decisions and personalize campaigns. One of the major challenges for marketers is determining which customers to target with offers or promotions: excessive targeting can lead to customer fatigue, while insufficient targeting may leave revenue opportunities unclaimed.
+Modern game design and marketing are increasingly data-driven, relying on analytics to personalize experiences and campaigns. A central challenge is determining which players to target with new features or incentives: over-targeting can lead to disengagement, while under-targeting may miss opportunities for growth.
 
-This project utilizes uplift modeling—a technique that estimates the incremental impact of a marketing intervention, rather than just predicting who will convert. The key question addressed is: **Which customers are most likely to respond positively to a campaign if targeted?**
+This project utilizes **uplift modeling**—a technique that estimates the incremental impact of a gaming intervention (such as a reward, event, or feature introduction), rather than merely predicting who will engage. The key question addressed is: **Which players are most likely to show increased engagement or spending if targeted?**
 
 ---
 
@@ -16,28 +16,20 @@ This project utilizes uplift modeling—a technique that estimates the increment
 
 ### Data Preparation
 
-- **Data Sources:** Worked with customer transaction logs, engagement history, and demographic attributes.
-- **Preprocessing:** Handled missing data, normalized variables, and encoded categorical features.
-- **Feature Engineering:** Generated new features capturing customer lifetime value, activity clusters, recency/frequency, and prior campaign exposure.
+- **Data Sources:** In-game transaction records, session history, player profiles, and event logs.
+- **Preprocessing:** Handling missing data, scaling variables, and encoding categorical features.
+- **Feature Engineering:** Generating features such as lifetime value, playstyle clusters, recency/frequency metrics, and prior event exposure.
 
 ### Modeling Approach
 
-- **Baseline Models:** Logistic Regression and Random Forests to estimate conversion probability.
-- **Uplift Models:** Applied Causal Forests, Two-Model approaches, and treatment/control group analysis.
+- **Baseline Models:** Logistic Regression and Random Forests for engagement/conversion probability.
+- **Uplift Models:** Causal Forests, Two-Model approaches, and treatment/control group analysis tailored for gaming interventions.
 - **Evaluation Metrics:** Qini coefficient, AUUC (Area Under the Uplift Curve), and incremental profit analysis.
 
 ### Campaign Simulation
 
-- Simulated different campaign targeting strategies: mass targeting, random selection, and uplift-driven targeting.
-- Quantified the ROI and effectiveness of each approach, highlighting the advantage of uplift modeling for smarter resource allocation.
-
----
-
-## 📂 Repository Contents
-
-- **Analysis.ipynb:** Jupyter Notebook detailing data preparation, modeling pipeline, and uplift evaluation.
-- **CaseStudy.pdf:** Business case study summarizing findings and recommendations.
-- **README.md:** Project documentation and summary.
+- Simulated strategies for feature rollout and reward targeting: mass targeting, random selection, and uplift-driven targeting.
+- Quantified the incremental impact and effectiveness of each approach, highlighting the advantage of uplift modeling for allocating resources and maximizing player satisfaction.
 
 ---
 
@@ -45,16 +37,8 @@ This project utilizes uplift modeling—a technique that estimates the increment
 
 - **Python:** pandas, numpy, matplotlib, seaborn for data handling and visualization.
 - **scikit-learn:** Machine learning models and metrics.
-- **CausalML / EconML:** Advanced uplift modeling techniques.
-- **Visualization:** Uplift curves, profit simulations, and campaign performance dashboards.
-
----
-
-## 🚀 How to Use
-
-1. Clone the repository and install dependencies listed in `requirements.txt`.
-2. Open `Analysis.ipynb` to follow the workflow and experiment with data and models.
-3. Review `CaseStudy.pdf` for business insights and summary.
+- **CausalML / EconML:** Advanced uplift modeling techniques for causal inference.
+- **Visualization:** Uplift curves, incremental impact plots, and campaign performance dashboards.
 
 ---
 
@@ -63,7 +47,10 @@ This project utilizes uplift modeling—a technique that estimates the increment
 - Uplift Modeling
 - Machine Learning
 - Data Visualization
-- Marketing Analytics
+- Gaming Analytics
 - Python
 
 ---
+---
+
+_For questions or collaboration requests, please contact [rsm-s5gandhi](https://github.com/rsm-s5gandhi)._
